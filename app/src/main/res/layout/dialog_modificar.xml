@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etNomDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/etCognomsDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cognoms" />
+
+    <EditText
+        android:id="@+id/etTelefonDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telèfon"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etMarcaDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca" />
+
+    <EditText
+        android:id="@+id/etModelDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model" />
+
+</LinearLayout>
